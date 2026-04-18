@@ -17,4 +17,4 @@ Personal portfolio website built with vanilla JavaScript.
 
 ## Live
 
-[alexanderstamenkov.github.io/portfolio](https://alexanderstamenkov.github.io/portfolio)
+[alexanderstamenkov.github.io/portfolio](https://alexanderstamenkov.github.io)
