@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexander Stamenkov — UI/UX Designer & Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- CURSOR -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">AS</a>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-menu-btn" id="menuBtn" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-links">
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-text">DESIGN</div>
+      <div class="hero-inner">
+        <div class="hero-tag reveal">UI/UX Designer & Developer</div>
+        <h1 class="hero-title reveal">
+          <span class="hero-title-line">Alexander</span>
+          <span class="hero-title-line italic">Stamenkov</span>
+        </h1>
+        <p class="hero-sub reveal">
+          Crafting digital experiences where design <br />
+          meets engineering precision.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn-primary">View Work</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+      <div class="hero-counter">
+        <div class="counter-item reveal">
+          <span class="counter-num" data-target="8">0</span>
+          <span class="counter-label">Projects</span>
+        </div>
+        <div class="counter-item reveal">
+          <span class="counter-num" data-target="4">0</span>
+          <span class="counter-label">Years Exp.</span>
+        </div>
+        <div class="counter-item reveal">
+          <span class="counter-num" data-target="2">0</span>
+          <span class="counter-label">Clients</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-left">
+            <div class="section-label reveal">01 — About</div>
+            <h2 class="section-title reveal">
+              Design is how it <em>works</em>, not just how it looks.
+            </h2>
+          </div>
+          <div class="about-right">
+            <p class="about-text reveal">
+              I'm a UI/UX designer and frontend developer based in Bulgaria,
+              passionate about creating interfaces that are both beautiful and
+              functional. I bridge the gap between design thinking and
+              engineering.
+            </p>
+            <p class="about-text reveal">
+              With a background in web design and development, I bring a
+              holistic approach to every project — from wireframes and
+              prototypes to pixel-perfect implementation.
+            </p>
+            <a href="#" class="about-cv reveal">
+              Download CV
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path
+                  d="M8 2v9M3 8l5 5 5-5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <div class="section-inner">
+        <div class="section-label reveal">02 — Skills</div>
+        <h2 class="section-title reveal">What I bring to the table</h2>
+        <div class="skills-grid" id="skillsGrid">
+          <!-- JS рендерира -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+      <div class="section-inner">
+        <div class="section-label reveal">03 — Projects</div>
+        <h2 class="section-title reveal">Selected work</h2>
+        <div class="projects-list" id="projectsList">
+          <!-- JS рендерира -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="section-inner">
+        <div class="section-label reveal">04 — Contact</div>
+        <h2 class="contact-title reveal">Let's work <em>together</em></h2>
+        <p class="contact-sub reveal">
+          Have a project in mind? I'd love to hear about it.
+        </p>
+        <div class="contact-links reveal">
+          <a href="mailto:sa6ko200@gmail.com" class="contact-link">
+            sa6ko200@gmail.com
+          </a>
+          <a
+            href="https://github.com/alexanderStamenkov"
+            target="_blank"
+            class="contact-link"
+          >
+            GitHub
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-link">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>© 2026 Alexander Stamenkov</span>
+        <span>Designed & Built by AS</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
