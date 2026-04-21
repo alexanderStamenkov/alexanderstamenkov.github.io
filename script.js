@@ -60,13 +60,15 @@ const projects = [
   },
 ];
 
-document.addEventListener("mousemove", function (e) {
-  cursor.style.left = e.clientX + "px";
-  cursor.style.top = e.clientY + "px";
+if (!window.matchMedia("(hover: none)").matches) {
+  document.addEventListener("mousemove", function (e) {
+    cursor.style.left = e.clientX + "px";
+    cursor.style.top = e.clientY + "px";
 
-  cursorFollower.style.left = e.clientX + "px";
-  cursorFollower.style.top = e.clientY + "px";
-});
+    cursorFollower.style.left = e.clientX + "px";
+    cursorFollower.style.top = e.clientY + "px";
+  });
+}
 
 window.addEventListener("scroll", function (e) {
   nav.classList.toggle("scrolled", window.scrollY > 50);

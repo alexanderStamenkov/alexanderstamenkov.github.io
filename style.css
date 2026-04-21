@@ -788,4 +788,9 @@ body:has(button:hover) .cursor {
     gap: 8px;
     text-align: center;
   }
+
+  .cursor,
+  .cursor-follower {
+    display: none;
+  }
 }
