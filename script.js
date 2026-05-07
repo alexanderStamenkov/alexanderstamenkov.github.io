@@ -53,6 +53,20 @@ const projects = [
   },
   {
     num: "03",
+    name: "Github profile search",
+    desc: "Search for profiles in Github and check their public repos",
+    tags: ["JavaScript", "API"],
+    link: "https://github.com/alexanderStamenkov/github-profile-searcher",
+  },
+  {
+    num: "04",
+    name: "Dance Lessons Booking",
+    desc: "Modern web platform for booking dance lessons with an intuitive scheduling system and seamless user experience",
+    tags: ["REST API", "Booking System", "Mobile Responsive"],
+    link: "https://magi.oblaka.win/",
+  },
+  {
+    num: "05",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
