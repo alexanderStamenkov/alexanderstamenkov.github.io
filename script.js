@@ -67,6 +67,13 @@ const projects = [
   },
   {
     num: "05",
+    name: "CineMix",
+    desc: "A fast and minimal movie search app powered by the OMDb API. Search any title and instantly browse results with posters, release years, and content type badges.",
+    tags: ["JS", "Vite", "REST API"],
+    link: "https://alexanderstamenkov.github.io/movie-search/",
+  },
+  {
+    num: "06",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
