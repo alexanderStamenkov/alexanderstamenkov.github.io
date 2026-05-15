@@ -74,6 +74,13 @@ const projects = [
   },
   {
     num: "06",
+    name: "Weather app",
+    desc: "A dynamic weather app that detects your location automatically and adapts its visual theme to current conditions. Search any city for live temperature, humidity, wind speed, and feels-like data.",
+    tags: ["JS", "Vite", "OpenWeather API"],
+    link: "https://alexanderstamenkov.github.io/weather-app/",
+  },
+  {
+    num: "07",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
