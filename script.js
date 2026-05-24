@@ -87,7 +87,7 @@ const projects = [
     link: "https://snipvault-as.netlify.app",
   },
   {
-    num: "07",
+    num: "08",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
