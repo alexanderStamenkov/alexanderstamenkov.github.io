@@ -81,6 +81,13 @@ const projects = [
   },
   {
     num: "07",
+    name: "SnipVault",
+    desc: "A personal code snippet manager with live search, language filtering, and persistent storage. Built from scratch with TypeScript — no frameworks.",
+    tags: ["TypeScript", "localStorage", "Netlify"],
+    link: "https://snipvault-as.netlify.app",
+  },
+  {
+    num: "07",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
