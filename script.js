@@ -88,6 +88,13 @@ const projects = [
   },
   {
     num: "08",
+    name: "Live chat",
+    desc: "Real-time chat app with authentication, instant messaging and clean dark UI",
+    tags: ["JavaScript", "Supabase", "Vite"],
+    link: "https://merry-fairy-84e78f.netlify.app",
+  },
+  {
+    num: "09",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
