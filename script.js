@@ -91,10 +91,17 @@ const projects = [
     name: "Live chat",
     desc: "Real-time chat app with authentication, instant messaging and clean dark UI",
     tags: ["JavaScript", "Supabase", "Vite"],
-    link: "https://merry-fairy-84e78f.netlify.app",
+    link: "https://chat4e.netlify.app/auth/auth.html",
   },
   {
     num: "09",
+    name: "List",
+    desc: "React app that list your goals and you can delete the goals",
+    tags: ["Typescript", "React", "Vite", "Vercel"],
+    link: "https://react-ts-goals-gamma.vercel.app/",
+  },
+  {
+    num: "10",
     name: "Portfolio",
     desc: "Personal portfolio with custom cursor, scroll animations and clean design",
     tags: ["JavaScript", "CSS", "Design"],
