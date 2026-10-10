@@ -63,7 +63,7 @@ const projects = [
     name: "Dance Lessons Booking",
     desc: "Modern web platform for booking dance lessons with an intuitive scheduling system and seamless user experience",
     tags: ["REST API", "Booking System", "Mobile Responsive"],
-    link: "https://magi.oblaka.win/",
+    link: "https://magiballet.com/",
   },
   {
     num: "05",
